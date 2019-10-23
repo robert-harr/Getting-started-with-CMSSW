@@ -30,6 +30,7 @@ After successful compilattion this is run with the command
 ```
 cmsRun hTocc/Dhadron/test/reCluster_cfg.py
 ```
-This will run over the file specified by default, presently a file that Nabin copied to his nobackup area.
+This will run over the file specified by default, presently a file that Nabin copied to his nobackup area.  This is a simulation of 2016 data.
 
 Now try the whole thing again but with CMSSW_10_2_14.
+With CMSSW_10_2_14 simulation of 2018 data can be processed, so this is done with a file copied to my nobackup area, 2B34C313-2683-CC49-A2FF-A36B794241C0.root.
