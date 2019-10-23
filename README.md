@@ -26,3 +26,10 @@ git clone https://github.com/nabinpoudyal3/Dhadron.git hTocc/Dhadron
 git clone https://github.com/cms-jet/JetToolbox.git JMEAnalysis/JetToolbox -b jetToolbox_94X_v4
 scram b -j 18
 ```
+After successful compilattion this is run with the command
+```
+cmsRun hTocc/Dhadron/test/reCluster_cfg.py
+```
+This will run over the file specified by default, presently a file that Nabin copied to his nobackup area.
+
+Now try the whole thing again but with CMSSW_10_2_14.
