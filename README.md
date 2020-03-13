@@ -26,7 +26,7 @@ git clone https://github.com/nabinpoudyal3/Dhadron.git hTocc/Dhadron
 git clone https://github.com/cms-jet/JetToolbox.git JMEAnalysis/JetToolbox -b jetToolbox_94X_v4
 scram b -j 18
 ```
-After successful compilattion this is run with the command
+After successful compilation this is run with the command
 ```
 cmsRun hTocc/Dhadron/test/reCluster_cfg.py
 ```
@@ -34,3 +34,7 @@ This will run over the file specified by default, presently a file that Nabin co
 
 Now try the whole thing again but with CMSSW_10_2_14.
 With CMSSW_10_2_14 simulation of 2018 data can be processed, so this is done with a file copied to my nobackup area, 2B34C313-2683-CC49-A2FF-A36B794241C0.root.
+
+13 March 2020:  Finally picking up from where I left off.
+Previous code setup still seems to be running (good)!
+Running over the MC file 2B34C313-2683-CC49-A2FF-A36B794241C0.root I see 
